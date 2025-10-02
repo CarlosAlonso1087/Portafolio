@@ -4,205 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio - Juan Carlos Emmanuel Alonso Campos</title>
+  <meta name="description" content="Portafolio profesional de Juan Carlos Emmanuel Alonso Campos, consultor senior en desarrollo de software e integraciones ERP/SAP.">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --azul: #0A2540;
-      --gris: #2C3E50;
-      --turquesa: #1ABC9C;
-      --naranja: #E67E22;
-      --blanco: #ffffff;
-    }
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: var(--gris);
-      color: var(--blanco);
-      line-height: 1.6;
-    }
-    /* ---------- NAV ---------- */
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: var(--azul);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.8rem 1.2rem;
-      z-index: 1000;
-    }
-    nav h1 {
-      font-size: 1.2rem;
-      margin: 0;
-      color: var(--blanco);
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 0.8rem;
-    }
-    nav ul li a {
-      color: var(--blanco);
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-    }
-    .hamburger div {
-      width: 25px;
-      height: 3px;
-      background: var(--blanco);
-      margin: 4px 0;
-      transition: 0.3s;
-    }
-    .mobile-menu {
-      display: none;
-      flex-direction: column;
-      background: var(--azul);
-      position: absolute;
-      top: 55px;
-      right: 0;
-      width: 200px;
-      padding: 1rem;
-    }
-    .mobile-menu a {
-      color: var(--blanco);
-      text-decoration: none;
-      margin: 0.5rem 0;
-      font-weight: 500;
-    }
-
-    /* ---------- HEADER ---------- */
-    header {
-      margin-top: 55px;
-      background: linear-gradient(rgba(10,37,64,0.9), rgba(26,188,156,0.8)),
-                  url('https://i.ibb.co/QrF0j3F/code-bg.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 5rem 1rem;
-      text-align: center;
-      color: var(--blanco);
-    }
-    header h2 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-      font-weight: 700;
-    }
-    header p {
-      font-size: 1.1rem;
-      font-weight: 300;
-      max-width: 700px;
-      margin: auto;
-    }
-
-    /* ---------- SECTIONS ---------- */
-    section {
-      max-width: 1100px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: var(--blanco);
-      color: var(--gris);
-      border-radius: 12px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-    }
-    h3 {
-      color: var(--azul);
-      font-weight: 700;
-      margin-bottom: 1rem;
-      border-left: 6px solid var(--turquesa);
-      padding-left: 12px;
-    }
-    .servicios {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      margin-top: 1rem;
-    }
-    .servicio {
-      background: var(--gris);
-      color: var(--blanco);
-      padding: 1.5rem;
-      border-radius: 10px;
-      text-align: center;
-      transition: transform 0.3s ease, background 0.3s ease;
-    }
-    .servicio:hover {
-      transform: translateY(-5px);
-      background: var(--azul);
-    }
-    .servicio h4 {
-      color: var(--turquesa);
-      margin-bottom: 0.8rem;
-      font-size: 1.1rem;
-    }
-    .diferenciadores {
-      background: var(--turquesa);
-      color: var(--blanco);
-      padding: 1.5rem;
-      border-radius: 8px;
-      margin: 2rem 0;
-    }
-    .cta {
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .cta button {
-      background: var(--naranja);
-      border: none;
-      padding: 1rem 2.5rem;
-      font-size: 1.1rem;
-      color: var(--blanco);
-      font-weight: 600;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .cta button:hover {
-      background: #d35400;
-    }
-
-    /* ---------- FOOTER ---------- */
-    footer {
-      background: var(--azul);
-      color: var(--blanco);
-      text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 3rem;
-    }
-    footer p {
-      margin: 0.3rem 0;
-    }
-    footer a {
-      color: var(--turquesa);
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    /* ---------- RESPONSIVE ---------- */
-    @media (max-width: 768px) {
-      nav ul {
-        display: none;
-      }
-      .hamburger {
-        display: flex;
-      }
-      header h2 {
-        font-size: 1.8rem;
-      }
-      header p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <!-- NAV -->
@@ -230,23 +34,24 @@
   <!-- HEADER -->
   <header>
     <h2>Juan Carlos Emmanuel Alonso Campos</h2>
-    <p>Consultor Senior en Desarrollo de Software e Integraciones SAP | +15 años creando soluciones tecnológicas que transforman negocios</p>
+    <p>Consultor Senior en Desarrollo de Software e Integraciones ERP | +15 años creando soluciones tecnológicas que transforman negocios</p>
   </header>
 
-  <!-- SECTIONS -->
+  <!-- PERFIL -->
   <section id="perfil">
-  <h3>Perfil Profesional</h3>
-  <p>
-    Consultor y desarrollador de software que transforma procesos de negocio en 
-    <strong>soluciones digitales seguras y escalables</strong>. 
-    Especializado en <strong>.NET, SAP y SQL Server</strong>, con habilidades en 
-    <strong>Python</strong> para automatización de datos y analítica. 
-    Ayudo a las organizaciones a modernizar sus sistemas, conectar plataformas 
-    <strong>on-premise y cloud</strong>, y acelerar su transformación digital 
-    con un enfoque práctico y orientado a resultados.
-  </p>
-</section>
+    <h3>Perfil Profesional</h3>
+    <p>
+      Consultor y desarrollador de software que transforma procesos de negocio en 
+      <strong>soluciones digitales seguras y escalables</strong>. 
+      Especializado en <strong>.NET, SAP y SQL Server</strong>, con habilidades en 
+      <strong>Python</strong> para automatización de datos y analítica. 
+      Ayudo a las organizaciones a modernizar sus sistemas, conectar plataformas 
+      <strong>on-premise y cloud</strong>, y acelerar su transformación digital 
+      con un enfoque práctico y orientado a resultados.
+    </p>
+  </section>
 
+  <!-- SERVICIOS -->
   <section id="servicios">
     <h3>Servicios</h3>
     <div class="servicios">
@@ -273,6 +78,7 @@
     </div>
   </section>
 
+  <!-- EXPERIENCIA -->
   <section id="experiencia">
     <h3>Experiencia Seleccionada</h3>
     <ul>
@@ -284,6 +90,7 @@
     </ul>
   </section>
 
+  <!-- DIFERENCIADORES -->
   <section class="diferenciadores">
     <h3>¿Por qué trabajar conmigo?</h3>
     <ul>
@@ -294,21 +101,24 @@
     </ul>
   </section>
 
+  <!-- CONTACTO -->
   <section id="contacto" class="cta">
     <h3>Impulsa la transformación digital de tu empresa</h3>
-    <button onclick="window.location.href='mailto:jcarlos.alonsoc@gmail.com'">Contáctame</button>
+    <div class="botones">
+      <button onclick="window.location.href='mailto:jcarlos.alonsoc@gmail.com'">📧 Escríbeme</button>
+      <button onclick="window.location.href='https://wa.me/5218182557576'">💬 WhatsApp</button>
+    </div>
   </section>
 
   <!-- FOOTER -->
-<footer>
-  <p>📧 jcarlos.alonsoc@gmail.com | 📱 +52 818 255 7576</p>
-  <p>
-    <a href="https://www.linkedin.com/in/jcalonso87" target="_blank">LinkedIn</a> | 
-    <a href="https://wa.me/5218182557576" target="_blank">WhatsApp</a> | 
-    <a href="#" target="_blank">GitHub</a>
-  </p>
-</footer>
-
+  <footer>
+    <p>📧 jcarlos.alonsoc@gmail.com | 📱 +52 818 255 7576</p>
+    <p>
+      <a href="https://www.linkedin.com/in/jcalonso87" target="_blank">LinkedIn</a> | 
+      <a href="https://wa.me/5218182557576" target="_blank">WhatsApp</a> | 
+      <a href="#" target="_blank">GitHub</a>
+    </p>
+  </footer>
 
   <script>
     function toggleMenu() {
