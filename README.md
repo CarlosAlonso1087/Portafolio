@@ -1,38 +1,47 @@
-# Portafolio de Juan Carlos Emmanuel Alonso Campos
+# 🌐 Portafolio Profesional – Juan Carlos Emmanuel Alonso Campos
 
-Bienvenido a mi portafolio profesional 🚀  
-Aquí encontrarás una muestra de mi experiencia, proyectos y servicios en el área de **desarrollo de software, integración ERP y consultoría tecnológica**.
+Bienvenido a mi portafolio 🚀  
+Aquí encontrarás información sobre mi experiencia, servicios y proyectos en el área de **desarrollo de software, integraciones ERP y consultoría tecnológica**.
 
 ---
 
 ## 👨‍💻 Sobre mí
 Ingeniero Administrador en Sistemas especializado en el **análisis, desarrollo e integración de software**.  
 Experto en **.NET, SQL Server, Python** y soluciones en la nube (**Azure, AWS, SAP BTP**).  
-Experiencia en integrar plataformas **on-premise y cloud con ERPs (SAP ECC, S/4HANA, entre otros)**.  
+Amplia experiencia en la integración de plataformas **on-premise y cloud con ERPs (SAP ECC, S/4HANA y más)**.  
 
 ---
 
 ## 💡 Servicios
-- 🚀 Desarrollo de aplicaciones empresariales (.NET 8, APIs REST, Python).  
-- 🔗 Integración con ERP (SAP ECC, S/4HANA Cloud, BTP, ESB y otros).  
-- 📊 Inteligencia de Negocio (Power BI, ETL, SQL Optimization).  
-- 📑 Business Analyst (levantamiento de requerimientos, BPMN/UML).  
-- 🎓 Capacitación en arquitectura, integraciones y metodologías ágiles.  
+- 🚀 **Desarrollo de Software**: Aplicaciones empresariales en .NET, APIs REST, MAUI.  
+- 🔗 **Integraciones ERP**: SAP ECC, S/4HANA Cloud, BTP, ESB y otros sistemas empresariales.  
+- 💡 **Consultoría en Arquitectura**: Diseño de soluciones y transformación digital.  
+- 📊 **Datos e Inteligencia de Negocio**: SQL Server, ETL, dashboards Power BI, optimización.  
+- 🎓 **Capacitación y Mentoría**: Entrenamiento en tecnologías y metodologías ágiles.  
 
 ---
 
-## 📂 Proyectos Destacados
-1. **Portal Proveedores – i-Consulting**  
-   Desarrollo de APIs REST e integraciones con SAP ECC/S4HANA.
+## 📂 Experiencia Seleccionada
+- **I-Consulting (2025 – Actualidad)**  
+  Desarrollo de APIs REST y ajustes en Portal Proveedores para SAP ECC/S4.  
 
-2. **SteelOne – Frisa**  
-   Desarrollo de módulos de producción con WPF/XAML integrados con SAP.
+- **Frisa (2024)**  
+  Desarrollo de módulos de Órdenes de Producción en SteelOne (WPF, XAML, LinQ).  
 
-3. **Ternium – Northware**  
-   Optimización de procesos logísticos y modelos de aceptación con SAP y SQL Server.
+- **Northware / Ternium (2018 – 2024)**  
+  Optimización de procesos logísticos y modelos de aceptación con SAP y SQL Server.  
 
-4. **ERP Casa de Cambio**  
-   Automatización de PLD, facturación electrónica y conciliaciones.
+- **Lumina Software (2018)**  
+  Mantenimiento de aplicaciones internas para retail (HEB).  
+
+- **Casa de Cambio San Jorge (2016 – 2018)**  
+  Automatización de PLD, facturación electrónica y conciliaciones.  
+
+---
+
+## 🖼 Vista Previa del Portafolio
+🔗 [Ver sitio publicado](https://TU_USUARIO.github.io/portafolio)  
+*(Reemplaza con tu enlace real o con tu dominio propio si ya lo apuntaste desde GoDaddy, ejemplo: [https://alonsodevsolutions.com](https://alonsodevsolutions.com))*  
 
 ---
 
@@ -40,4 +49,9 @@ Experiencia en integrar plataformas **on-premise y cloud con ERPs (SAP ECC, S/4H
 - 📧 **jcarlos.alonsoc@gmail.com**  
 - 📱 **+52 818 255 7576**  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/jcalonso87)  
-- 💻 [GitHub](#) *(enlace pendiente)*  
+- 💬 [WhatsApp](https://wa.me/5218182557576)  
+- 💻 [GitHub](#) *(enlace pendiente a tus proyectos de código)*  
+
+---
+
+✨ Este repositorio contiene los archivos fuente de mi portafolio (`index.html`, `css/styles.css`, `/img`).  
