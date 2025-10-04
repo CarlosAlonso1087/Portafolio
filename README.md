@@ -31,11 +31,11 @@ El objetivo es mostrar los servicios, transmitir confianza a los clientes y ofre
 
 ```bash
 📦 alonso-devsolutions-website
- ┣ 📜 index.html          # Página principal
- ┣ 📜 styles.css          # Estilos globales
- ┣ 📜 logo.png            # Logo de la empresa
- ┣ 📜 README.md           # Documentación del proyecto
- ┣ software-dev.jpg
- ┣ integration.jpg
- ┣ innovation.jpg
- ┗ team.jpg
+ ┣ 📜 index.html
+ ┣ 📜 styles.css
+ ┣ 📜 logo.png
+ ┣ 📂 assets
+    ┣ software-dev.jpg
+    ┣ integration.jpg
+    ┣ innovation.jpg
+    ┗ team.jpg
