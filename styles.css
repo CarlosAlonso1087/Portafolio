@@ -1,257 +1,196 @@
-:root {
-  --azul: #0A2540;
-  --gris: #2C3E50;
-  --turquesa: #1ABC9C;
-  --naranja: #E67E22;
-  --blanco: #ffffff;
-}
+    :root {
+      --azul: #0A2540;
+      --gris: #2C3E50;
+      --turquesa: #1ABC9C;
+      --naranja: #E67E22;
+      --blanco: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--gris);
+      color: var(--blanco);
+      line-height: 1.6;
+    }
+    /* ---------- NAV ---------- */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: var(--azul);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem 1.2rem;
+      z-index: 1000;
+    }
+    nav h1 {
+      font-size: 1.2rem;
+      margin: 0;
+      color: var(--blanco);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 0.8rem;
+    }
+    nav ul li a {
+      color: var(--blanco);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background: var(--blanco);
+      margin: 4px 0;
+      transition: 0.3s;
+    }
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background: var(--azul);
+      position: absolute;
+      top: 55px;
+      right: 0;
+      width: 200px;
+      padding: 1rem;
+    }
+    .mobile-menu a {
+      color: var(--blanco);
+      text-decoration: none;
+      margin: 0.5rem 0;
+      font-weight: 500;
+    }
 
-html {
-  scroll-behavior: smooth;
-}
+    /* ---------- HEADER ---------- */
+    header {
+      margin-top: 55px;
+      background: linear-gradient(rgba(10,37,64,0.9), rgba(26,188,156,0.8)),
+                  url('https://i.ibb.co/QrF0j3F/code-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 5rem 1rem;
+      text-align: center;
+      color: var(--blanco);
+    }
+    header h2 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 300;
+      max-width: 700px;
+      margin: auto;
+    }
 
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: var(--gris);
-  color: var(--blanco);
-  line-height: 1.6;
-}
+    /* ---------- SECTIONS ---------- */
+    section {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: var(--blanco);
+      color: var(--gris);
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    h3 {
+      color: var(--azul);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      border-left: 6px solid var(--turquesa);
+      padding-left: 12px;
+    }
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .servicio {
+      background: var(--gris);
+      color: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .servicio:hover {
+      transform: translateY(-5px);
+      background: var(--azul);
+    }
+    .servicio h4 {
+      color: var(--turquesa);
+      margin-bottom: 0.8rem;
+      font-size: 1.1rem;
+    }
+    .diferenciadores {
+      background: var(--turquesa);
+      color: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta button {
+      background: var(--naranja);
+      border: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      color: var(--blanco);
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta button:hover {
+      background: #d35400;
+    }
 
-/* ---------- NAV ---------- */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: var(--azul);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.8rem 1.2rem;
-  z-index: 1000;
-}
+    /* ---------- FOOTER ---------- */
+    footer {
+      background: var(--azul);
+      color: var(--blanco);
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    footer p {
+      margin: 0.3rem 0;
+    }
+    footer a {
+      color: var(--turquesa);
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-nav h1 {
-  font-size: 1.2rem;
-  margin: 0;
-  color: var(--blanco);
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 0 0.8rem;
-}
-
-nav ul li a {
-  color: var(--blanco);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background: var(--blanco);
-  margin: 4px 0;
-  transition: 0.3s;
-}
-
-.mobile-menu {
-  display: none;
-  flex-direction: column;
-  background: var(--azul);
-  position: absolute;
-  top: 55px;
-  right: 0;
-  width: 200px;
-  padding: 1rem;
-}
-
-.mobile-menu a {
-  color: var(--blanco);
-  text-decoration: none;
-  margin: 0.5rem 0;
-  font-weight: 500;
-}
-
-/* ---------- HEADER ---------- */
-header {
-  margin-top: 55px;
-  background: linear-gradient(rgba(10,37,64,0.9), rgba(26,188,156,0.8)),
-              url('https://i.ibb.co/QrF0j3F/code-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 5rem 1rem;
-  text-align: center;
-  color: var(--blanco);
-}
-
-header h2 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-}
-
-header p {
-  font-size: 1.1rem;
-  font-weight: 300;
-  max-width: 700px;
-  margin: auto;
-}
-
-/* ---------- SECTIONS ---------- */
-section {
-  max-width: 1100px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: var(--blanco);
-  color: var(--gris);
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-
-h3 {
-  color: var(--azul);
-  font-weight: 700;
-  margin-bottom: 1rem;
-  border-left: 6px solid var(--turquesa);
-  padding-left: 12px;
-}
-
-/* ---------- SERVICIOS ---------- */
-.servicios {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.servicio {
-  background: var(--gris);
-  color: var(--blanco);
-  padding: 1.5rem;
-  border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.servicio:hover {
-  transform: translateY(-5px);
-  background: var(--azul);
-}
-
-.servicio h4 {
-  color: var(--turquesa);
-  margin-bottom: 0.8rem;
-  font-size: 1.1rem;
-}
-
-/* ---------- EXPERIENCIA ---------- */
-#experiencia ul {
-  list-style: none;
-  padding: 0;
-}
-
-#experiencia li {
-  background: var(--gris);
-  color: var(--blanco);
-  margin: 0.8rem 0;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* ---------- DIFERENCIADORES ---------- */
-.diferenciadores {
-  background: var(--turquesa);
-  color: var(--blanco);
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-
-.diferenciadores ul {
-  list-style: none;
-  padding: 0;
-}
-
-.diferenciadores li {
-  margin: 0.5rem 0;
-}
-
-/* ---------- CTA ---------- */
-.cta {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.cta .botones {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.cta button {
-  background: var(--naranja);
-  border: none;
-  padding: 1rem 2.5rem;
-  font-size: 1.1rem;
-  color: var(--blanco);
-  font-weight: 600;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.cta button:hover {
-  background: #d35400;
-}
-
-/* ---------- FOOTER ---------- */
-footer {
-  background: var(--azul);
-  color: var(--blanco);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 3rem;
-}
-
-footer p {
-  margin: 0.3rem 0;
-}
-
-footer a {
-  color: var(--turquesa);
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
-  }
-  .hamburger {
-    display: flex;
-  }
-  header h2 {
-    font-size: 1.8rem;
-  }
-  header p {
-    font-size: 1rem;
-  }
-}
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
+      header h2 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
