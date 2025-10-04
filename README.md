@@ -35,8 +35,7 @@ El objetivo es mostrar los servicios, transmitir confianza a los clientes y ofre
  ┣ 📜 styles.css          # Estilos globales
  ┣ 📜 logo.png            # Logo de la empresa
  ┣ 📜 README.md           # Documentación del proyecto
- ┗ 📂 assets/             # Imágenes tecnológicas y equipo
-     ┣ software-dev.jpg
-     ┣ integration.jpg
-     ┣ innovation.jpg
-     ┗ team.jpg
+ ┣ software-dev.jpg
+ ┣ integration.jpg
+ ┣ innovation.jpg
+ ┗ team.jpg
