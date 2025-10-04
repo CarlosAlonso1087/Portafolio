@@ -1,3 +1,32 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #0A2540;
+  background-color: #fff;
+}
+h1, h2, h3 {
+  margin: 0 0 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  background: #0A2540;
+  padding: 15px 30px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  height: 50px;
+}
+
 /* Branding */
 .branding {
   display: flex;
@@ -8,6 +37,62 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0A2540 50%, #1ABC9C 100%);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0 25px;
+}
+.btn {
+  background: #1ABC9C;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+.btn:hover {
+  background: #16a085;
+}
+
+/* Secciones */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Tarjetas con imágenes */
@@ -36,4 +121,27 @@
   max-width: 600px;
   text-align: justify;
   line-height: 1.6;
+}
+
+/* Contacto */
+.contact-info {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact-info .btn {
+  background: #0A2540;
+}
+.contact-info .btn.whatsapp { background: #25D366; }
+.contact-info .btn.correo { background: #E67E22; }
+.contact-info .btn.web { background: #1ABC9C; }
+
+/* Footer */
+.footer {
+  background: #0A2540;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
