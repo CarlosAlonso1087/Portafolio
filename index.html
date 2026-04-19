@@ -1,95 +1,274 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alonso DevSolutions - Soluciones Tecnológicas</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Fuente -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Alonso DevSolutions | Desarrollo de Software y ERP</title>
 
-  <!-- Estilos -->
-  <link rel="stylesheet" href="./styles.css">
+  <meta name="description" content="Alonso DevSolutions desarrolla soluciones tecnológicas, sistemas a medida, integraciones y ERP para empresas." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
-  <!-- Encabezado -->
+
+  <!-- Header -->
   <header class="header">
-    <div class="container">
-      <div class="branding">
-        <img src="logo.png" alt="Logo Alonso DevSolutions" class="logo">
-        <span class="brand-text">Alonso DevSolutions</span>
-      </div>
-      <nav>
-        <ul class="menu">
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+    <div class="container header-content">
+      <a href="#" class="branding">
+        <img src="logo.png" alt="Logo Alonso DevSolutions" class="logo" />
+        <span>Alonso DevSolutions</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#erp">ERP</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Soluciones Tecnológicas y Desarrollo a Medida</h1>
-      <p>Impulsa la transformación digital de tu empresa con soluciones confiables, escalables y seguras.</p>
-      <a href="#contacto" class="btn">Contáctanos</a>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Soluciones tecnológicas para empresas</span>
 
-  <!-- Servicios -->
-  <section id="servicios" class="section servicios">
-    <h2>Nuestros Servicios</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="assets/software-dev.jpg" alt="Desarrollo de software">
-        <h3>💻 Desarrollo de Software</h3>
-        <p>Aplicaciones a la medida de tu negocio, creadas con las últimas tecnologías para garantizar escalabilidad, rendimiento y seguridad.</p>
-      </div>
-      <div class="card">
-        <img src="assets/integration.jpg" alt="Integración de sistemas">
-        <h3>🔗 Integración & Optimización</h3>
-        <p>Conecta tus sistemas internos y externos para optimizar procesos, reducir tiempos y mejorar la productividad de tu empresa.</p>
-      </div>
-      <div class="card">
-        <img src="assets/innovation.jpg" alt="Innovación tecnológica">
-        <h3>🚀 Innovación Tecnológica</h3>
-        <p>Implementación de herramientas modernas como IA, automatización y soluciones cloud que impulsan la competitividad de tu negocio.</p>
-      </div>
-    </div>
-  </section>
+          <h1>Desarrollo de software, integración de sistemas y ERP a medida</h1>
 
-  <!-- Nosotros -->
-  <section id="nosotros" class="section nosotros">
-    <h2>¿Quiénes Somos?</h2>
-    <div class="about">
-      <img src="assets/team.jpg" alt="Equipo tecnológico" class="about-img">
-      <p>
-        En <strong>Alonso DevSolutions</strong> ayudamos a empresas a transformar digitalmente sus procesos
-        con soluciones tecnológicas diseñadas a la medida.  
-        <br><br>
-        Contamos con experiencia en <b>desarrollo de software</b>, <b>integración de sistemas</b>, <b>innovación digital</b> e <b>implementación de estrategias tecnológicas</b> que permiten a nuestros clientes mejorar su eficiencia, reducir costos y mantenerse competitivos en el mercado.  
-        <br><br>
-        Nuestro compromiso es ofrecer <b>soluciones confiables, escalables y de alto impacto</b> que generen valor a tu empresa y a tus clientes.
-      </p>
-    </div>
-  </section>
+          <p>
+            Ayudamos a empresas a digitalizar, automatizar y optimizar sus procesos mediante
+            soluciones confiables, escalables y seguras.
+          </p>
 
-  <!-- Contacto -->
-  <section id="contacto" class="section contacto">
-    <h2>Contacto</h2>
-    <p>Queremos escuchar tu proyecto y ayudarte a hacerlo realidad.</p>
-    <div class="contact-info">
-      <a href="https://wa.me/5218182557576" target="_blank" class="btn whatsapp">📱 WhatsApp</a>
-      <a href="mailto:juan.alonso@alonsodevsolutions.com" class="btn correo">✉️ Correo</a>
-      <a href="https://www.alonsodevsolutions.com" target="_blank" class="btn web">🌐 Sitio Web</a>
-    </div>
-  </section>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary">Solicitar asesoría</a>
+            <a href="#erp" class="btn btn-secondary">Ver ERP</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>ERP</strong>
+              <span>Gestión empresarial</span>
+            </div>
+            <div>
+              <strong>APIs</strong>
+              <span>Integraciones seguras</span>
+            </div>
+            <div>
+              <strong>Cloud</strong>
+              <span>Soluciones escalables</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="dashboard">
+            <div class="dashboard-header">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="dashboard-body">
+              <div class="chart-card large"></div>
+              <div class="chart-card"></div>
+              <div class="chart-card"></div>
+              <div class="line"></div>
+              <div class="line short"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Servicios</span>
+          <h2>Soluciones diseñadas para impulsar tu operación</h2>
+          <p>
+            Creamos tecnología enfocada en eficiencia, automatización, control y crecimiento empresarial.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">💻</div>
+            <h3>Desarrollo de Software</h3>
+            <p>
+              Aplicaciones web, APIs, portales administrativos y sistemas internos desarrollados
+              de acuerdo con las necesidades reales de tu negocio.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🔗</div>
+            <h3>Integración de Sistemas</h3>
+            <p>
+              Conexión entre plataformas, servicios externos, bases de datos, ERPs, CRMs,
+              APIs REST, SOAP y procesos empresariales.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🚀</div>
+            <h3>Automatización e Innovación</h3>
+            <p>
+              Automatización de tareas, reportes, flujos operativos, soluciones cloud e implementación
+              de herramientas modernas para mejorar la productividad.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ERP -->
+    <section id="erp" class="section erp-section">
+      <div class="container erp-grid">
+        <div class="erp-content">
+          <span class="section-label">ERP empresarial</span>
+          <h2>Alonso Nexus ERP</h2>
+
+          <p>
+            Una plataforma empresarial diseñada para centralizar procesos, mejorar el control operativo
+            y facilitar la toma de decisiones mediante información clara y accesible.
+          </p>
+
+          <div class="features">
+            <div class="feature">
+              <span>📦</span>
+              <div>
+                <h4>Gestión operativa</h4>
+                <p>Control de procesos, movimientos, seguimiento y administración interna.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <span>📊</span>
+              <div>
+                <h4>Reportes y trazabilidad</h4>
+                <p>Indicadores, consultas, historial de operaciones y análisis para la toma de decisiones.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <span>🔐</span>
+              <div>
+                <h4>Seguridad y usuarios</h4>
+                <p>Accesos por roles, control de permisos y arquitectura pensada para ambientes empresariales.</p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <span>☁️</span>
+              <div>
+                <h4>Preparado para la nube</h4>
+                <p>Implementación escalable para operar desde servidores cloud o infraestructura propia.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="erp-actions">
+            <a href="#contacto" class="btn btn-primary">Solicitar demo</a>
+            <a href="https://www.alonsodevsolutions.com" target="_blank" class="btn btn-secondary">Más información</a>
+          </div>
+        </div>
+
+        <div class="erp-panel">
+          <div class="erp-window">
+            <div class="erp-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="erp-layout">
+              <aside>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </aside>
+
+              <div class="erp-main">
+                <div class="erp-title"></div>
+                <div class="erp-metrics">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="erp-table">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="section-label">Nosotros</span>
+          <h2>Transformamos procesos en soluciones digitales</h2>
+        </div>
+
+        <div class="about-text">
+          <p>
+            En <strong>Alonso DevSolutions</strong> ayudamos a empresas a modernizar sus operaciones
+            mediante desarrollo de software, integración de sistemas, automatización e implementación
+            de soluciones tecnológicas.
+          </p>
+
+          <p>
+            Nuestro enfoque está en construir soluciones confiables, escalables y de alto impacto,
+            alineadas con los objetivos reales de cada negocio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-card">
+        <span class="section-label">Contacto</span>
+        <h2>Hablemos de tu proyecto</h2>
+        <p>
+          Podemos ayudarte a desarrollar una solución a medida, integrar tus sistemas actuales
+          o implementar un ERP para tu operación.
+        </p>
+
+        <div class="contact-actions">
+          <a href="https://wa.me/5218182557576" target="_blank" class="btn btn-whatsapp">📱 WhatsApp</a>
+          <a href="mailto:juan.alonso@alonsodevsolutions.com" class="btn btn-email">✉️ Correo</a>
+          <a href="https://www.alonsodevsolutions.com" target="_blank" class="btn btn-secondary">🌐 Sitio Web</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Alonso DevSolutions - Todos los derechos reservados.</p>
+    <div class="container footer-content">
+      <p>© 2026 Alonso DevSolutions. Todos los derechos reservados.</p>
+      <p>Desarrollo de software · Integraciones · ERP · Cloud</p>
+    </div>
   </footer>
+
 </body>
 </html>
