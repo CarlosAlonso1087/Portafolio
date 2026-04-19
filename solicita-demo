@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Solicitar demo | Alonso DevSolutions</title>
+
+  <meta name="description" content="Solicita una demo de Nexus ERP o una asesoría para soluciones tecnológicas empresariales." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="Logo Alonso DevSolutions" class="brand-logo">
+        <div>
+          <strong>Alonso</strong>
+          <span>DevSolutions</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#erp">Nexus ERP</a>
+        <a href="index.html#proceso">Proceso</a>
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="index.html#contacto" class="nav-cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="demo-page">
+      <div class="demo-blur demo-blur-one"></div>
+      <div class="demo-blur demo-blur-two"></div>
+
+      <div class="container demo-grid">
+
+        <div class="demo-copy">
+          <span class="section-tag">Solicitar demo</span>
+
+          <h1>Agenda una demo de Nexus ERP o cuéntanos tu proyecto.</h1>
+
+          <p>
+            Completa el formulario y nos pondremos en contacto contigo para conocer tus necesidades,
+            revisar tus procesos y proponerte una solución tecnológica adecuada para tu empresa.
+          </p>
+
+          <div class="demo-benefits">
+            <article>
+              <span>01</span>
+              <h3>Diagnóstico inicial</h3>
+              <p>Revisamos tus procesos actuales y detectamos oportunidades de mejora.</p>
+            </article>
+
+            <article>
+              <span>02</span>
+              <h3>Demo guiada</h3>
+              <p>Te mostramos cómo Nexus ERP puede adaptarse a tu operación.</p>
+            </article>
+
+            <article>
+              <span>03</span>
+              <h3>Propuesta tecnológica</h3>
+              <p>Definimos módulos, integraciones y alcance de acuerdo con tus necesidades.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="demo-form-card">
+          <form 
+            action="https://formsubmit.co/juan.alonso@alonsodevsolutions.com" 
+            method="POST"
+            class="demo-form"
+          >
+
+            <input type="hidden" name="_subject" value="Nueva solicitud de demo - Alonso DevSolutions">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_next" value="https://www.alonsodevsolutions.com/gracias.html">
+            <input type="text" name="_honey" style="display:none">
+
+            <div class="form-header">
+              <h2>Datos de contacto</h2>
+              <p>Déjanos tus datos y te contactaremos a la brevedad.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input 
+                type="text" 
+                id="nombre" 
+                name="Nombre" 
+                placeholder="Ej. Juan Alonso"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="empresa">Empresa</label>
+              <input 
+                type="text" 
+                id="empresa" 
+                name="Empresa" 
+                placeholder="Nombre de tu empresa"
+                required
+              >
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="correo">Correo</label>
+                <input 
+                  type="email" 
+                  id="correo" 
+                  name="Correo" 
+                  placeholder="correo@empresa.com"
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input 
+                  type="tel" 
+                  id="telefono" 
+                  name="Teléfono" 
+                  placeholder="Ej. 8182557576"
+                  required
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="interes">¿Qué necesitas?</label>
+              <select id="interes" name="Interés" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Demo de Nexus ERP">Demo de Nexus ERP</option>
+                <option value="Desarrollo de software a medida">Desarrollo de software a medida</option>
+                <option value="Integración de sistemas">Integración de sistemas</option>
+                <option value="Automatización de procesos">Automatización de procesos</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Cuéntanos brevemente tu necesidad</label>
+              <textarea 
+                id="mensaje" 
+                name="Mensaje" 
+                rows="5" 
+                placeholder="Ej. Busco un ERP para controlar ventas, usuarios, reportes e inventario..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              Enviar solicitud
+            </button>
+
+            <p class="form-note">
+              Al enviar este formulario aceptas que Alonso DevSolutions te contacte para dar seguimiento a tu solicitud.
+            </p>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Alonso DevSolutions. Todos los derechos reservados.</p>
+      <p>Software · APIs · ERP · Cloud</p>
+    </div>
+  </footer>
+
+</body>
+</html>
