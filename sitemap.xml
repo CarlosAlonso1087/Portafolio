@@ -5,6 +5,10 @@
     <priority>1.00</priority>
   </url>
   <url>
+    <loc>https://carlosalonso1087.github.io/Portafolio/nexus-erp.html</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://carlosalonso1087.github.io/Portafolio/solicita-demo.html</loc>
     <priority>0.90</priority>
   </url>
